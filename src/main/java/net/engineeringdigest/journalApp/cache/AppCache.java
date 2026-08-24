@@ -4,6 +4,7 @@ package net.engineeringdigest.journalApp.cache;
 import net.engineeringdigest.journalApp.entity.ConfigJournalAppEntity;
 import net.engineeringdigest.journalApp.repository.ConfigJournalAppRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;

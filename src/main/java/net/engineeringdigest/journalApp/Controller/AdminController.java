@@ -22,7 +22,7 @@ public class AdminController {
     private AppCache appCache;
 
     @GetMapping("/all-users")
-    public ResponseEntity<?> grtAllUsers()
+    public ResponseEntity<?> getAllUsers()
     {
         List<User> all = userService.getAll();
         if(all != null && !all.isEmpty())
