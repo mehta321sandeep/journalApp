@@ -18,6 +18,6 @@ public class EmailServiceTests {
     {
         emailService.sendEmail("ssm321sk@gmail.com",
                 "Testing java mail sender",
-                "Hi aap aksie hai ?");
+                "Hi aap kaise hai ?");
     }
 }
