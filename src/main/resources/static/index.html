@@ -38,7 +38,7 @@
         const output = document.getElementById('output');
 
         try {
-            const res = await fetch('/journal/public/login', {
+            const res = await fetch('/public/login', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ userName: username, password: password })
