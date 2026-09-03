@@ -45,3 +45,12 @@ server:
 weather:
   api:
     key: 6b9c25355e789522e32eac20443b9dff
+
+Spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: ${GOOGLE_CLIENT_ID}
+            client-secret: ${GOOGLE_CLIENT_SECRET}
